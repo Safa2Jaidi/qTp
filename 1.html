@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>قلقيلية/فلسطين
+    </title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<style>
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.book-cover {
+    width: 200px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.title-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 20px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.title-button:hover {
+    background-color: #0056b3;
+}
+
+.book-info {
+    margin-top: 20px;
+    font-size: 16px;
+    color: #333;
+}
+</style>
+<body>
+    <div class="container">
+        <img src="1.png" alt="غلاف الكتاب" class="book-cover">
+        <button class="title-button" onclick="redirectToLink()">عنوان الكتاب</button>
+        <p class="book-info">معلومات حول الكتاب: هذا الكتاب يتناول موضوعات تعليمية هامة...</p>
+    </div>
+    <script>function redirectToLink() {
+        window.location.href = "https://safa2qtp.web.app/";
+    }
+    </script>
+</body>
+</html>
